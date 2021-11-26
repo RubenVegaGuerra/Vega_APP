@@ -1,0 +1,19 @@
+﻿<Window x:Class="VegaWPF.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VegaWPF"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="550"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid x:Name="DataGridCarrito" Margin="347,33,43,169" AutoGenerateColumns="True">
+        </DataGrid>
+        <Label x:Name="lblCarrito" Content="Carrito" HorizontalAlignment="Left" Margin="138,42,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe UI Black" FontSize="18" Foreground="Black" FontWeight="Normal"/>
+        <Image HorizontalAlignment="Left" Height="51" Margin="42,33,0,0" VerticalAlignment="Top" Width="62" Source="/Windows/107831.png"/>
+        <Button x:Name="btLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="347,326,0,0" VerticalAlignment="Top" Click="Button_Click" Width="50"/>
+        <Button x:Name="btComprar" Content="Comprar" HorizontalAlignment="Left" Margin="457,326,0,0" VerticalAlignment="Top" Click="btComprar_Click"/>
+        <Label x:Name="PrecioFinal" Content="Precio: " HorizontalAlignment="Left" Margin="347,270,0,0" VerticalAlignment="Top" Width="160"/>
+    </Grid>
+</Window>

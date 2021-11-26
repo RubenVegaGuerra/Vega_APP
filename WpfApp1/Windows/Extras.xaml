@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.Windows.Extras"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VegaWPF"
+        mc:Ignorable="d"
+        Title="Extras" Height="450" Width="800"
+         WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Button x:Name="Pulsar" Content="Pulsar" HorizontalAlignment="Left" Margin="114,98,0,0" VerticalAlignment="Top" Height="23" Width="99" Click="Pulsar_Click"/>
+        <Label Content="Pon aqui un titulo al clon:" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Margin="160,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" RenderTransformOrigin="0.569,0.403" Height="22"/>
+        <DataGrid x:Name="DataGridPrueba" Margin="400,98,29,97" ItemsSource="{Binding Path=listaLibro}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridHyperlinkColumn Binding="{Binding Path=Titulo}" Header="Titulo (Personalizado)" Width="130"/>
+                </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="ArrayText" HorizontalAlignment="Left" Margin="198,217,0,0" Text="&#xD;&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="19"/>
+        <Label Content="Introduce una posicion del 0 al 2" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top"/>
+        <Label Content="En la posicion se encuentra:" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textPos" HorizontalAlignment="Left" Margin="198,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="337,218,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.05,-0.068" Width="43" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

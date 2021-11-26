@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Vega_free-file %282%29.jpg" />
+    <None Remove="Windows\030834f7223ebfd68a5b7a0749b1659e.jpg" />
+    <None Remove="Windows\1.png" />
+    <None Remove="Windows\107831.png" />
+    <None Remove="Windows\2.png" />
+    <None Remove="Windows\3.png" />
+    <None Remove="Windows\4.png" />
+    <None Remove="Windows\5.png" />
+    <None Remove="Windows\Adidas.png" />
+    <None Remove="Windows\Air Force.png" />
+    <None Remove="Windows\Air Max 95.jpg" />
+    <None Remove="Windows\Air Max 95.png" />
+    <None Remove="Windows\Air Max 97.png" />
+    <None Remove="Windows\AirMax1.jpg" />
+    <None Remove="Windows\AirMax1.png" />
+    <None Remove="Windows\Huarache.png" />
+    <None Remove="Windows\Jordan.png" />
+    <None Remove="Windows\Nike.png" />
+    <None Remove="Windows\st,small,507x507-pad,600x600,f8f8f8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LogicaNegocio\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Vega_free-file (2).jpg" />
+    <Resource Include="Windows\030834f7223ebfd68a5b7a0749b1659e.jpg" />
+    <Resource Include="Windows\1.png" />
+    <Resource Include="Windows\107831.png" />
+    <Resource Include="Windows\2.png" />
+    <Resource Include="Windows\3.png" />
+    <Resource Include="Windows\4.png" />
+    <Resource Include="Windows\5.png" />
+    <Resource Include="Windows\Adidas.png" />
+    <Resource Include="Windows\Air Force.png" />
+    <Resource Include="Windows\Air Max 95.jpg" />
+    <Resource Include="Windows\Air Max 95.png" />
+    <Resource Include="Windows\Air Max 97.png" />
+    <Resource Include="Windows\AirMax1.jpg" />
+    <Resource Include="Windows\AirMax1.png" />
+    <Resource Include="Windows\Huarache.png" />
+    <Resource Include="Windows\Jordan.png" />
+    <Resource Include="Windows\Nike.png" />
+    <Resource Include="Windows\st,small,507x507-pad,600x600,f8f8f8.jpg" />
+  </ItemGroup>
+
+</Project>
